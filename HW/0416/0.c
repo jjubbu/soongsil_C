@@ -10,7 +10,7 @@ int main(void){
 
     result = number%5+1;
 
-    printf("풀어야 할 문제 번호:%d %d %d 15 16\n", result, result+5, result+10);
+    printf("풀어야 할 문제 번호:%d %d %d 15 16\n", result, result+5, result != 5? result+10 : 17);
     
     return 0;
 
